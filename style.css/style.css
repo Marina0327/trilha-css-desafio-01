@@ -1,0 +1,138 @@
+
+body
+{
+  background-color: black; 
+  color: white;
+  text-align: center;
+}
+header
+{
+  background: url('../img/banner.png') no-repeat , linear-gradient(to top, #050303, #00023f, #050404); 
+  background-size: cover; 
+  color: white; 
+  padding: 10px;
+  text-align: center; 
+}
+h1
+{
+  font-family:"Bebas Neue";
+  font-size: 2.5em; 
+  margin-bottom: 5px; 
+  color: #0489e7;
+  letter-spacing: 2px;
+  text-decoration: double;
+}
+.banner-content p
+{
+ font-family:Helvetica;
+}
+button
+{
+  text-transform: uppercase;
+  font-family:"Bebas Neue", sans-serif;
+  font-size: 20px;
+  letter-spacing: 4px;
+  background-color: #0805055e;
+  border:  rgb(60, 151, 255) ,solid 2px;
+  color: rgb(60, 151, 255);
+  margin-bottom:50px;
+  width: 280px;
+  padding: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+#course-content
+{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+#course-content p
+{
+  font-family:Helvetica;
+  align-items: center;
+  font-size: 18px;
+  margin-top: 2px;
+}
+#course-content h2
+{
+  font-family:sans-serif;
+  text-transform:uppercase;
+  letter-spacing: 3px;
+  color: rgb(60, 151, 255);
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+#course-content .module
+{
+  font-size: 20px;
+  border:  rgb(74, 155, 249) solid 2px;
+  background-color: rgba(139, 136, 136, 0.23);
+  border-radius: 40px;
+  border-width: 3px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: 420px;
+  margin-right: 420px;
+  font-family: Helvetica;
+}
+.module span
+{
+  color: rgb(89, 165, 251);
+}
+#transform-world
+{
+  border: 1px solid #279cef; 
+  height: 420px;
+  background-image: url('../img/woman-code.png');
+  background-size: cover;
+  background-position: center;
+}
+.transform-world-container
+{
+  height: 100%;
+  width: 100%;
+  padding-left: 40px; 
+  padding-right: 40px;
+  display: flex;
+  align-items: center; 
+}
+.transform-world-container span
+{
+  text-align: left;
+  font-family: "Bebas Neue", sans-serif;
+  width: 200px;
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-transform: lowercase;
+  text-shadow: 3px 2px #33A8DB;
+  
+}
+#professional-challenge h2
+{
+  font-family: "Bebas Neue";
+  font-size: 24px;
+  padding: 30px;
+  letter-spacing: 8px;
+  color: #279cef;
+  text-shadow: #0489e7;
+}
+#professional-challenge p
+{
+  font-size: 20px;
+  padding: 10px;
+}
+footer
+{
+  background:linear-gradient(to top, #050404, #000126b1, #050404);  ;
+  border-top: 2px solid rgb(96, 151, 255);
+}
+.dio-logo
+{
+  margin-top: 20px;
+}
+footer a
+{
+  color: #279cef;
+}
